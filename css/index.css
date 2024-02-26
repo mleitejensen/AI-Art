@@ -15,11 +15,18 @@
     text-decoration: none;
 }
 
-.images{
+.slideContainer{
     margin: 10px auto;
-    background-color: grey;
     max-height: 30%;
     max-width: 90%;
     width: 100%;
     height: 100%;
+    overflow: clip;
+}
+
+.slideContainer *{
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+
 }
