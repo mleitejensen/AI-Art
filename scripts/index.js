@@ -10,7 +10,6 @@ let index = 0
 
 const switchImage = (index) => {
     setTimeout(() => {
-        console.log(index)
         changeHtml(index)
         if(index >= images.length - 1){
             index = 0

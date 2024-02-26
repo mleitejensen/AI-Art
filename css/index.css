@@ -5,12 +5,15 @@
 .vikiImage{
     margin: 10px auto;
     background-color: grey;
-    max-height: 50%;
-    width: 90%;
+    max-height: 20rem;
+    max-width: 80rem;
+    width: 100%;
     height: 100%;
+    object-fit: contain;
 }
 
 .link{
+    margin: 3rem 0 0 0;
     color: rgb(54, 54, 228);
     text-decoration: none;
 }
@@ -18,7 +21,7 @@
 .slideContainer{
     margin: 10px auto;
     max-height: 30%;
-    max-width: 90%;
+    max-width: 80rem;
     width: 100%;
     height: 100%;
     overflow: clip;
