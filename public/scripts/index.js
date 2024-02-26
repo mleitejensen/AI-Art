@@ -1,5 +1,10 @@
 const test = document.querySelector("div")
 const slideContainer = document.querySelector(".slideContainer")
+
+// var fs = require('fs');
+// var files = fs.readdirSync('../images/');
+// console.log(files)
+
 const images = [1,2,3,4,5,6]
 
 test.onclick = () => {
