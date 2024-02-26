@@ -46,7 +46,7 @@ const switchImage = (index) => {
             index++
         }
         switchImage(index)
-    }, 1000)
+    }, 3000)
 }
 
 const changeHtml = (index) => {
