@@ -1,0 +1,11 @@
+.title{
+    text-align: center;
+}
+
+.vikiImage{
+    margin: 10px auto;
+    background-color: grey;
+    max-height: 50%;
+    width: 90%;
+    height: 100%;
+}
