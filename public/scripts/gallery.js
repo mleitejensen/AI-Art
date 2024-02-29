@@ -1,13 +1,10 @@
 const imageContainer = document.querySelector(".gridContainer")
 
-
-
 let images = []
 
 const getImages = async () => {
     const response = await fetch("/images")
     let data = await response.json()
-    //imagesTest = {... {image : await data.images[2]}} 
     await data.images.forEach(image => {
         images.push(image)
     });
@@ -18,8 +15,8 @@ const getImages = async () => {
     });
     
     const galleryImage = document.querySelectorAll(".gridItem") 
-    console.log(galleryImage)
     const popUpElement = document.querySelector(".popUp")
+
     const popUp = (src) => {
         popUpElement.src = src
         popUpElement.classList.remove("popUp")
