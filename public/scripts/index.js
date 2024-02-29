@@ -6,7 +6,6 @@ let images = []
 const getImages = async () => {
     const response = await fetch("/images")
     let data = await response.json()
-    //imagesTest = {... {image : await data.images[2]}} 
     await data.images.forEach(image => {
         images.push(image)
     });

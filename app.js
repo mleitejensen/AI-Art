@@ -7,7 +7,6 @@ app.use(express.json());
 
 const fs = require('fs');
 let files = fs.readdirSync("./public/nfs/nfs/aiart/images/")
-console.log(files)
 
 app.listen(3000)
 
